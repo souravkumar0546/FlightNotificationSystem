@@ -1,0 +1,38 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+.env
+*.sqlite3
+
+# Django
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# Kafka
+kafka.log
+
+# MongoDB
+*.pid
+*.lock
+*.mongod.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+*.swp
