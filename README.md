@@ -101,7 +101,7 @@ Follow these steps to set up the project locally:
    ```
 4. **Create a Kafka topic**:
    ```bash
-   kafka-topics.sh --create --topic flight_updates --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+   .\bin\windows\kafka-topics.bat --create --topic flight_updates --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
    ```
    
 ### Running the Application
