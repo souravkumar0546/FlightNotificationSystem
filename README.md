@@ -93,11 +93,11 @@ Follow these steps to set up the project locally:
 
 2. **Start Zookeeper**:
    ```bash
-   zookeeper-server-start.sh config/zookeeper.properties
+   .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
    ```
 3. **Start Kafka**:
    ```bash
-   kafka-server-start.sh config/server.properties
+   .\bin\windows\kafka-server-start.bat .\config\server.properties
    ```
 4. **Create a Kafka topic**:
    ```bash
